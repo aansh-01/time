@@ -126,7 +126,8 @@ body {
     }
     .text{
         font-size: 120px;
-        margin-top: 45% !important;
+        margin-top: 70% !important;
+        margin-bottom: 5%;
     }
 }
 @media screen and (max-width : 850px)
@@ -136,7 +137,8 @@ body {
     }
     .text{
         font-size: 120px;
-        margin-top: 50% !important;
+        margin-top: 80% !important;
+        margin-bottom: 5%;
     }
 }
 @media screen and (max-width : 750px)
@@ -146,7 +148,8 @@ body {
     }
     .text{
         font-size: 120px;
-        margin-top: 60% !important;
+        margin-top: 90% !important;
+        margin-bottom: 5%;
     }
 }
 @media screen and (max-width : 650px)
@@ -156,7 +159,8 @@ body {
     }
     .text{
         font-size: 100px;
-        margin-top: 80% !important;
+        margin-top: 110% !important;
+        margin-bottom: 5%;
     }
 }
 
