@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>time</title>
+        <script>
+            function startTime() {
+              var today = new Date();
+              var h = today.getHours();
+              var m = today.getMinutes();
+              var s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =
+              h + ":" + m + ":" + s;
+              var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+            </script>
+        <link rel="stylesheet" href="clock.css">
+        <script src="clock.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet"> 
+    </head>
+    <body onload="startTime()">
+        <div style="margin-left: 25%; margin-top: 4%;" class="Blazing">BY AANSH SARDANA</div>
+<div class="clock" style=" margin-left: 40%; margin-top: 10%; margin-bottom: 5%; "></div>
+<div id="txt" class="text" style="display: block !important; padding-top: 30%;;"></div>
+</body>
+</html>
